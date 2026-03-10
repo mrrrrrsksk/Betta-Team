@@ -36,11 +36,16 @@
     margin-top: 30px;
     font-weight: 400;
     font-size: 10px;
+    padding-right: 90px;
 }
 
 .format-text b {
     font-weight: 700;
     font-size: 12px;
+}
+
+#info {
+    margin-top: 60px;
 }
 
 #info ul {
@@ -54,7 +59,7 @@
 /* Tablet */
 @media (min-width: 601px) and (max-width: 991px) {
     .container {
-        padding: 0 70px;
+        padding: 0 71px;
     }
 
     #format h2,
@@ -66,30 +71,37 @@
     .format-text {
         margin-top: 50px;
         font-weight: 400;
-        font-size: 11px;
+        padding-right: 0;
+        font-size: 9px;
     }
 
     .format-text b {
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .format-text-block {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 30px;
+        padding-right: 60px;
+        gap: 40px;
+    }
+
+    #info {
+        margin-top: 100px;
     }
 
     #info ul {
         margin-top: 20px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 12px;
+        padding-right: 100px;
     }
 }
 
 /* Desktop */
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .container {
         padding: 0 121px;
     }
@@ -102,26 +114,34 @@
 
     .format-text {
         font-weight: 400;
-        font-size: 18px;
-        margin-top: 90px;
-        width: 235px;
+        font-size: 14px;
+        margin-top: 50px;
+        padding-right: 0;
+        width: 220px;
     }
 
     .format-text b {
         font-weight: 700;
-        font-size: 25px;
+        font-size: 21px;
     }
 
     .format-text-block {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 60px;
+        gap: 40px;
+        padding-right: 100px;
+    }
+
+    #info {
+        margin-top: 100px;
     }
 
     #info ul {
         margin-top: 40px;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 400;
+        padding-right: 150px;
+        list-style-position: inside;
     }
 }
