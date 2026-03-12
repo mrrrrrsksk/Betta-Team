@@ -19,9 +19,9 @@ body {
 
 #header-logo {
     /* width: 120px; */
-    width:52.18px;
+    width: 52.18px;
     margin-top: 36px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: block;
 }
 
@@ -71,7 +71,7 @@ h1 {
     background-color: #1E4681;
     color: white;
     padding: 15px;
-    width: 100%;
+    width: 80%;
     max-width: 450px;
     border-radius: 4px;
     margin-top: 60px;
@@ -94,17 +94,17 @@ main section {
     padding: 60px 0;
 }
 
-.header-part3{
+.header-part3 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.header-part3 img{
+.header-part3 img {
     width: 30vw;
 
 }
 
-.h-pic{
+.h-pic {
     display: flex;
     justify-content: end;
     width: 100%;
@@ -112,10 +112,12 @@ main section {
 
 
 
-.header-part3 { max-width: 800px; }
+.header-part3 {
+    max-width: 800px;
+}
 
 
-@media (min-width: 991px)  {
+@media (min-width: 991px) {
 
     .header-part3 {
         display: flex;
@@ -141,7 +143,7 @@ main section {
     }
 
 
-    .header-p{
+    .header-p {
         font-size: clamp(10px, 3vw, 24px)
     }
 
@@ -160,12 +162,12 @@ main section {
     }
 
 
-    .header-p{
-      width: 80%;
-       font-size: 16px;
+    .header-p {
+        width: 80%;
+        font-size: 16px;
     }
 
-      #header-logo{
+    #header-logo {
         width: 112px;
         height: 66px;
     }
@@ -173,27 +175,27 @@ main section {
 
 
 
-@media (min-width:601px) and (max-width:990px){
+@media (min-width:601px) and (max-width:990px) {
 
-.header-part3{
-max-width:100%;
-}
+    .header-part3 {
+        max-width: 100%;
+    }
 
-.header-part2{
-gap:20px;
-}
+    .header-part2 {
+        gap: 20px;
+    }
 
-.header-pictures{
-justify-content:flex-end;
-}
+    .header-pictures {
+        justify-content: flex-end;
+    }
 
-.h-pic img{
-height:206px;
-width:176px;
-margin-top:-60px;
-}
+    .h-pic img {
+        height: 206px;
+        width: 176px;
+        margin-top: -60px;
+    }
 
- .header-bluebox {
+    .header-bluebox {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -201,17 +203,17 @@ margin-top:-60px;
         margin-top: 40px;
     }
 
- /* .header-part3 .header-p {
+    /* .header-part3 .header-p {
         width: 50%;
     } */
 
-    .header-p{
-       width: 80%;
-       font-size: 10px;
-    } 
+    .header-p {
+        width: 80%;
+        font-size: 10px;
+    }
 
 
-    #header-logo{
+    #header-logo {
         width: 64.87px;
         height: 38.23px;
     }
