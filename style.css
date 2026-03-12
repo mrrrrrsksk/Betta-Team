@@ -31,13 +31,13 @@ body {
     margin-bottom: -10px;
 }
 
-.info {
+.header-info {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.info img {
+.header-info img {
     width: 18px;
     height: 18px;
 }
