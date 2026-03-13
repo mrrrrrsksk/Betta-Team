@@ -1,0 +1,283 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Inter:wght@550&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #f0f2f5;
+        overflow-x: hidden;
+    }
+
+    #bg-grey {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 8.6%;
+        padding-bottom: 111px;
+    }
+
+    .title {
+        width: max-content;
+        white-space: nowrap;
+        display: block;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+        font-size: clamp(30px, 4vw, 55px);
+        line-height: 1.1;
+        color: #000;
+        margin-bottom: 50px;
+    }
+
+    .review-card {
+        width: 100%;
+        max-width: 791px;
+        min-height: 451px;
+        background: #ffffff;
+        border-radius: 30px;
+        position: relative;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+        padding: 50px 60px;
+    }
+
+    .review-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #333;
+        max-width: 680px;
+        margin-bottom: 20px;
+        font-weight: 550;
+    }
+
+    .review-footer {
+        position: absolute;
+        left: 26px;
+        bottom: 29px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .avatar {
+        width: clamp(120px, 15vw, 190px);
+        height: auto;
+        object-fit: cover;
+    }
+
+    .user-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .user-name {
+        font-family: 'Roboto Slab', serif;
+        font-size: clamp(18px, 2vw, 24px);
+        font-weight: 700;
+        color: #000;
+    }
+
+    .facebook-icon {
+        width: 32px;
+        height: 31px;
+        margin-top: 15px;
+    }
+
+
+    @media (max-width: 991px) {
+        #bg-grey {
+            padding-left: 5%;
+            padding-bottom: 60px;
+        }
+        .review-card {
+            max-width: 90%;
+            height: auto;
+            padding-bottom: 120px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .title {
+            white-space: normal;
+            width: 100%;
+            font-size: 28px;
+        }
+        #bg-grey {
+            padding-left: 20px;
+            padding-right: 20px;
+            justify-content: center;
+        }
+        .review-card {
+            max-width: 100%;
+            padding: 30px 20px;
+            padding-bottom: 130px;
+        }
+        .review-text {
+            font-size: 16px;
+        }
+        .review-footer {
+            gap: 10px;
+        }
+        .avatar {
+            width: 100px;
+        }
+    }
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+    #bg-green {
+        background-color: #9DC9C8;
+        width: 100%;
+        padding: 179px 20px 264px clamp(20px, 8.5vw, 122px);
+        font-family: 'Roboto', sans-serif;
+        min-height: 100vh;
+    }
+
+    .price-label {
+        font-size: 22px;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .price {
+        max-width: 481px;
+        width: 100%;
+        font-size: clamp(48px, 8vw, 80px);
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 50px;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+
+    .info-box {
+        max-width: 294px;
+        width: 100%;
+        min-width: 280px;
+    }
+
+    .info-box:last-child {
+        max-width: 322px;
+    }
+
+    .info-title {
+        font-size: 25px;
+        margin-bottom: 9px;
+        font-weight: 400;
+    }
+
+    .info-text {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    @media (max-width: 768px) {
+        #bg-green {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .info {
+            gap: 40px;
+        }
+    }
+
+    .footer {
+        background-color: black;
+        color: white;
+        padding: 80px 0;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .logo-line {
+        width: 60px;
+        height: 6px;
+        background-color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .logo-text {
+        font-weight: bold;
+        line-height: 1.1;
+        margin-bottom: 30px;
+    }
+
+    .socials {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .socials img {
+        width: 28px;
+        margin-right: 15px;
+    }
+
+    .footer-right p {
+        margin-bottom: 20px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        opacity: 0.7;
+    }
+
+    #bg-green .container {
+        padding: 0 36px;
+    }
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-right div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-right img {
+        width: 24px;
+        height: 24px;
+    }
