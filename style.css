@@ -85,7 +85,6 @@
     #proqram {
         padding-bottom: 110px;
     }
-=======
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -296,4 +295,142 @@ margin-top:-60px;
         height: 38.23px;
     }
 
+#format,
+#info {
+    font-family: Roboto, sans-serif;
+}
+
+#format h2,
+#info h2 {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.format-text b {
+    color: #1E4681;
+}
+
+
+/* Mobile */
+.container {
+    padding: 0 36px;
+}
+
+#format h2,
+#info h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.format-text {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 10px;
+    padding-right: 90px;
+}
+
+.format-text b {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#info {
+    margin-top: 60px;
+}
+
+#info ul {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+    list-style-position: inside;
+}
+
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 991px) {
+    .container {
+        padding: 0 71px;
+    }
+
+    #format h2,
+    #info h2 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .format-text {
+        margin-top: 50px;
+        font-weight: 400;
+        padding-right: 0;
+        font-size: 9px;
+    }
+
+    .format-text b {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .format-text-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 60px;
+        gap: 50px;
+    }
+
+    #info {
+        margin-top: 100px;
+    }
+
+    #info ul {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 12px;
+        padding-right: 100px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 991px) {
+    .container {
+        padding: 0 121px;
+    }
+
+    #info h2,
+    #format h2 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+
+    .format-text {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 50px;
+        padding-right: 0;
+        width: 220px;
+    }
+
+    .format-text b {
+        font-weight: 700;
+        font-size: 21px;
+    }
+
+    .format-text-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        padding-right: 100px;
+    }
+
+    #info {
+        margin-top: 100px;
+    }
+
+    #info ul {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 150px;
+        list-style-position: inside;
+    }
 }
