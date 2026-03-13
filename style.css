@@ -1,9 +1,14 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Inter:wght@550&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -275,5 +280,974 @@ body {
         order: 3; 
         margin-top: 60px;
         text-align: left;
+    }
+}
+
+
+}
+
+
+.container {
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+@media(min-width: 375px) and (max-width: 601px) {
+    .course-entry h1 {
+        font-family: "Roboto Slab", sans-serif;
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .container{
+        padding: 0 36px;
+
+    }
+    .course-entry p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.45;
+        margin-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .camera {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    .camera img {
+        width: 100%;
+        max-width: 340px;
+        height: 200px;
+    }
+
+    .course-table {
+        padding-right: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 40px 20px;
+        font-family: "Roboto", sans-serif;
+    }
+    .box p{
+        font-weight: 400px;
+        font-size: 10px;
+    }
+    .box:nth-child(3) {
+        grid-column: 1;
+    }
+
+    .box h3 {
+        font-weight: 700;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+
+    .second-pht {
+        display: none;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* tablet */
+
+
+@media screen and (min-width:601px) and (max-width:990px){
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+
+
+.top-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
+    margin-bottom:50px;
+}
+
+.course-entry h1{
+    font-family: "Roboto Slab", sans-serif;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.course-entry p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    line-height:130%;
+    margin-bottom:15px;
+}
+
+.camera img{
+    width:220px;
+}
+
+
+.bottom-info{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.second-pht img{
+    width:180px;
+}
+
+.course-table{
+    display:flex;
+    gap:40px;
+}
+
+.box h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size:15px;
+    margin-bottom:8px;
+}
+
+.box p{
+    font-family: "Roboto", sans-serif;
+    font-size:11px;
+    font-weight: 400;
+}
+
+}
+/* ///////////////////////////////////////////////////////////////// */
+/* komputere gore */
+
+
+@media screen and (min-width: 991px) {
+    .container {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .top-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 6.3vw 5vw 4.4vw 8.6vw;
+        gap: 5vw;
+    }
+
+    .course-entry {
+        flex: 1;
+        max-width: 50vw;
+    }
+
+    .course-entry h1 {
+
+        font-family: "Roboto Slab", sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 2.5vw;
+    }
+
+    .course-entry p {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 2vw;
+        font-weight: 400;
+    }
+
+    .camera {
+        width: 23.8vw;
+        flex-shrink: 0;
+        margin-right: 5vw;
+    }
+
+    .camera img {
+        margin-top: 70px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .bottom-info {
+        display: flex;
+        align-items: flex-start;
+        gap: 9.8vw;
+        padding-left: 8.6vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .second-pht {
+        width: 15.4vw;
+        flex-shrink: 0;
+    }
+
+    .second-pht img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .course-table {
+        display: flex;
+        gap: 8vw;
+        padding-top: 3vw;
+    }
+
+    .box {
+        flex-shrink: 0;
+    }
+
+    .box h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 1vw;
+    }
+
+    .box p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 601px) {
+    .course-entry h1 {
+        font-family: "Roboto Slab", sans-serif;
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .container{
+        padding: 0 36px;
+
+    }
+    .course-entry p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.45;
+        margin-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .camera {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    .camera img {
+        width: 100%;
+        max-width: 340px;
+        height: 200px;
+    }
+
+    .course-table {
+        padding-right: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 40px 20px;
+        font-family: "Roboto", sans-serif;
+    }
+    .box p{
+        font-weight: 400px;
+        font-size: 10px;
+    }
+    .box:nth-child(3) {
+        grid-column: 1;
+    }
+
+    .box h3 {
+        font-weight: 700;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+
+    .second-pht {
+        display: none;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* tablet */
+
+
+@media screen and (min-width:601px) and (max-width:990px){
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    padding: 0 36px;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.roboto-slab {
+    font-family: "Roboto Slab";
+}
+
+#proqram {
+    padding-bottom: 47px;
+}
+
+#proqram .container {
+    margin: 0px auto;
+}
+
+#proqram .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#proqram .card {
+    border-radius: 37px;
+    margin: 25px 0px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#proqram .cards hr {
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+    opacity: 100%;
+}
+
+#proqram .textblock {
+    font-size: 12px;
+    padding: 20px;
+}
+
+#proqram h3 {
+    font-size: 14px;
+}
+
+#proqram h2 {
+    font-size: 26px;
+    margin-bottom: 95px;
+}
+
+@media screen and (min-width:850px) {
+    #proqram .cards {
+        justify-content: left;
+        gap: 20px;
+    }
+
+    #proqram hr {
+        display: none;
+    }
+
+    #proqram .textblock {
+        font-size: 14px;
+    }
+
+    #proqram h3 {
+        font-size: 17px;
+    }
+
+    #proqram h2 {
+        font-size: 47px;
+        margin-bottom: 35px;
+    }
+
+    #proqram {
+        padding-bottom: 110px;
+    }
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 36px;
+}
+
+#header-logo {
+    /* width: 120px; */
+    width: 52.18px;
+    margin-top: 36px;
+    /* margin-bottom: 20px; */
+    display: block;
+}
+
+.header-part2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: -10px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-info img {
+    width: 18px;
+    height: 18px;
+}
+
+
+.header-part3 {
+    max-width: 800px;
+}
+
+
+.header-p {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+}
+
+
+h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+
+.header-p2 {
+    background-color: #1E4681;
+    color: white;
+    padding: 15px;
+    /* width: 80%; */
+    max-width: 475px;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+.viewer {
+    font-family: "Roboto Slab", serif;
+    font-size: 11px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.tarkovskiy {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+}
+
+main section {
+    padding: 60px 0;
+}
+
+.header-part3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-part3 img {
+    width: 30vw;
+
+}
+
+.h-pic {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+
+
+.header-part3 {
+    max-width: 800px;
+}
+
+
+
+
+@media (min-width:601px) and (max-width:990px) {
+
+    .viewer {
+        font-size: 14px;
+    }
+
+    .tarkovskiy {
+        font-size: 12px;
+    }
+
+    .header-part3 {
+        max-width: 100%;
+    }
+
+    .header-part2 {
+        gap: 20px;
+    }
+.container{
+    width:90%;
+    margin:auto;
+}
+
+
+
+.top-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
+    margin-bottom:50px;
+}
+
+.course-entry h1{
+    font-family: "Roboto Slab", sans-serif;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.course-entry p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    line-height:130%;
+    margin-bottom:15px;
+}
+
+.camera img{
+    width:220px;
+}
+
+
+.bottom-info{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.second-pht img{
+    width:180px;
+}
+
+.course-table{
+    display:flex;
+    gap:40px;
+}
+
+.box h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size:15px;
+    margin-bottom:8px;
+}
+
+.box p{
+    font-family: "Roboto", sans-serif;
+    font-size:11px;
+    font-weight: 400;
+}
+
+}
+/* ///////////////////////////////////////////////////////////////// */
+/* komputere gore */
+
+
+@media screen and (min-width: 991px) {
+    .container {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .top-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 6.3vw 5vw 4.4vw 8.6vw;
+        gap: 5vw;
+    }
+
+    .course-entry {
+        flex: 1;
+        max-width: 50vw;
+    }
+
+    .course-entry h1 {
+
+        font-family: "Roboto Slab", sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+        margin-bottom: 2.5vw;
+    }
+
+    .course-entry p {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 2vw;
+        font-weight: 400;
+    }
+
+    .camera {
+        width: 23.8vw;
+        flex-shrink: 0;
+        margin-right: 5vw;
+    }
+
+    .camera img {
+        margin-top: 70px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .bottom-info {
+        display: flex;
+        align-items: flex-start;
+        gap: 9.8vw;
+        padding-left: 8.6vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .second-pht {
+        width: 15.4vw;
+        flex-shrink: 0;
+    }
+
+    .second-pht img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .course-table {
+        display: flex;
+        gap: 8vw;
+        padding-top: 3vw;
+    }
+
+    .box {
+        flex-shrink: 0;
+    }
+
+    .box h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 1vw;
+    }
+
+    .box p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.3;
+        width: 12vw;
+    }
+}
+
+    .header-pictures {
+        justify-content: flex-end;
+    }
+
+    .h-pic img {
+        height: 206px;
+        width: 176px;
+        margin-top: -60px;
+    }
+
+    .header-bluebox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    /* .header-part3 .header-p {
+        width: 50%;
+        } */
+
+    .header-p {
+        font-size: 12px;
+    }
+
+
+    #header-logo {
+        width: 64.87px;
+        height: 38.23px;
+    }
+
+}
+
+@media (min-width: 991px) {
+
+    .header-part3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+
+    .viewer {
+        font-size: 25px;
+    }
+
+    .tarkovskiy {
+        font-size: 20px;
+    }
+
+
+    .header-pictures {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .h-pic img {
+        height: 356px;
+        width: 304px;
+        margin-top: -120px;
+    }
+
+
+    .header-p {
+        font-size: clamp(10px, 3vw, 24px)
+    }
+
+
+    .header-p2 {
+        margin-top: 60px;
+    }
+
+    .header-bluebox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+
+    .header-p {
+        font-size: 16px;
+    }
+
+    #header-logo {
+        width: 112px;
+        height: 66px;
+    }
+
+
+
+@media (min-width:601px) and (max-width:990px){
+
+.header-part3{
+max-width:100%;
+}
+
+.header-part2{
+gap:20px;
+}
+
+.header-pictures{
+justify-content:flex-end;
+}
+
+.h-pic img{
+height:206px;
+width:176px;
+margin-top:-60px;
+}
+
+ .header-bluebox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+ /* .header-part3 .header-p {
+        width: 50%;
+    } */
+
+    .header-p{
+       width: 80%;
+       font-size: 10px;
+    } 
+
+
+    #header-logo{
+        width: 64.87px;
+        height: 38.23px;
+    }
+
+#format,
+#info {
+    font-family: Roboto, sans-serif;
+}
+
+#format h2,
+#info h2 {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.format-text b {
+    color: #1E4681;
+}
+
+
+/* Mobile */
+.container {
+    padding: 0 36px;
+}
+
+#format h2,
+#info h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.format-text {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 10px;
+    padding-right: 90px;
+}
+
+.format-text b {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#info {
+    margin-top: 60px;
+}
+
+#info ul {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+    list-style-position: inside;
+}
+
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 991px) {
+    .container {
+        padding: 0 71px;
+    }
+
+    #format h2,
+    #info h2 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .format-text {
+        margin-top: 50px;
+        font-weight: 400;
+        padding-right: 0;
+        font-size: 9px;
+    }
+
+    .format-text b {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .format-text-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 60px;
+        gap: 50px;
+    }
+
+    #info {
+        margin-top: 100px;
+    }
+
+    #info ul {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 12px;
+        padding-right: 100px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 991px) {
+    .container {
+        padding: 0 121px;
+    }
+
+    #info h2,
+    #format h2 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+
+    .format-text {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 50px;
+        padding-right: 0;
+        width: 220px;
+    }
+
+    .format-text b {
+        font-weight: 700;
+        font-size: 21px;
+    }
+
+    .format-text-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        padding-right: 100px;
+    }
+
+    #info {
+        margin-top: 100px;
+    }
+
+    #info ul {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 150px;
+        list-style-position: inside;
     }
 }
